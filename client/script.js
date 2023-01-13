@@ -78,7 +78,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from server
 
-  const response = await fetch("https://dravid.onrender.com", {
+  const response = await fetch("https://dravid-developer.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
